@@ -1,13 +1,13 @@
 <?php
 
-namespace Ap\Models
+namespace App\Models
 
 use Illuminate\Database\Eloquent\Model;
 
 class Customer extends Models
 {
     protected $fillable = [
-       'dsicound', 'name', 'email', 'address', 'phoneNumber', 'in_stock'
+       'discount', 'name', 'email', 'address', 'phoneNumber', 'in_stock'
     ];
 }
 

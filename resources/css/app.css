@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: Excon;
+        src: url(../../../Excon_Complete/Fonts/WEB/fonts/Excon-Medium.woff) format("tff");
+        color: palevioletred
+    }
+}
