@@ -25,5 +25,5 @@ export default {
         "Excon" : ["excon"]
     }
 
-    plugins: [forms],
+    ,plugins: [forms],
 };
